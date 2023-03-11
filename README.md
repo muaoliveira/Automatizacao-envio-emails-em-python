@@ -5,5 +5,4 @@ O cenário é uma analise das ações da carteira escolhida, encaminhando um e-m
 
 Utilizadas a biblioteca 'yfinance' para os dados, 'pyautogui' e 'pyperclip' para a automatização da tarefa e a 'tkinter' para a criação da interface onde selecionamos a carteira desejada.
 
-#Arquivo dados
-Arquivo onde foi criada um dicionario que associa o nome da carteira digitada na interface com seu codigo de ação.
+#Arquivo dados é onde foi criada um dicionario que associa o nome da carteira digitada na interface com seu codigo de ação.
