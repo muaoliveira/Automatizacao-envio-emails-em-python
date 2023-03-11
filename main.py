@@ -1,7 +1,6 @@
 import yfinance
 import pyautogui
 import pyperclip
-import time
 from tkinter import *
 from tkinter import ttk
 from dados import *
@@ -28,11 +27,6 @@ def fEnviar(destinatario, assunto, mensagem):
     pyperclip.copy(mensagem)
     pyautogui.hotkey("ctrl", "v")
     pyautogui.hotkey("ctrl", "enter")
-
-
-# time.sleep(5)
-# posicao = pyautogui.position()
-# print(posicao)
 
 
 def fTeste(x):
