@@ -75,8 +75,7 @@ topoTitulo.place(x=28, y=10)
 ticker = Label(janela, text="Empresa: ", font="Verdana 10", bg=corBg, fg=corFg)
 ticker.place(x=40, y=50)
 
-tickerEntrada = Entry(janela, width=17
-                      )
+tickerEntrada = Entry(janela, width=17)
 tickerEntrada.place(x=107, y=52)
 
 button = Button(janela, text="Enviar", width=18, padx=20, command=lambda:fTeste(tickerEntrada.get()))
